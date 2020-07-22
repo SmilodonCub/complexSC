@@ -1,0 +1,331 @@
+---
+title: The role of the superior colliculus in more complex movements
+
+# Use letters for affiliations, numbers to show equal authorship (if applicable) and to indicate the corresponding author
+author:
+  - name: Bonnie Cooper
+    affiliation: a
+  - name: Robert M McPeek
+    affiliation: a
+address:
+  - code: a
+    address: SUNY College of Optometry, Department of Biological Science, 33 West 42nd St, New York, NY, 11206
+
+
+corresponding_author:
+  - code: 2
+    text: "To whom correspondence should be addressed. E-mail: bob@email.com"
+
+# For footer text
+lead_author_surname: Anonymous
+
+## Remove this if not required    
+equal_authors:
+  - code: 1
+    text: "A.O.(Author One) and A.T. (Author Two) contributed equally to this work (remove if not applicable)."
+
+
+author_contributions: |
+  Please provide details of author contributions here.
+
+## Remove this if not required
+conflict_of_interest: |
+  Please declare any conflict of interest here.
+
+abstract: |
+  Please provide an abstract of no more than 250 words in a single paragraph. Abstracts should explain to the general reader the major contributions of the article. References in the abstract must be cited in full within the abstract itself and cited in the text.
+
+
+significance: |
+  Authors must submit a 120-word maximum statement about the significance of their research paper written at a level understandable to an undergraduate educated scientist outside their field of speciality. The primary goal of the Significance Statement is to explain the relevance of the work in broad context to a broad readership. The Significance Statement appears in the paper itself and is required for all research papers.
+
+acknowledgements: |
+  Please include your acknowledgments here, set in a single paragraph. Please do not include any acknowledgments in the Supporting Information, or anywhere else in the manuscript.
+
+keywords:
+  - superior colluculus
+  - attention
+  - optional
+  - optional
+  - optional
+
+## must be one of: pnasresearcharticle (usual two-column layout), pnasmathematics (one column layout), or pnasinvited (invited submissions only)
+pnas_type: pnasresearcharticle
+
+bibliography: complexSC.bib
+csl: pnas.csl
+
+## change to true to add optional line numbering
+lineno: false
+
+output: rticles::pnas_article
+---
+
+
+The superior colliculus (SC), midbrain tectum in non-mammals, plays a prominent role in guiding orienting movements. In the primate, much attention has been paid to the sensorimotor transformation across the layers of SC that guide saccades. This was prompted by a series of influential physiology papers of the 70s that demonstrated the distinctions between the SC’s visual receptive and motor fields (Goldberg & Wurtz 1972), thier orderly retinotopic mapping (Wurtz & Goldberg 1972, Robinson 1972). and correspondence in visual space (Schiller & Stryker 1972). These features have been remarkably well conserved across phylogeny (Sparks 1988, Kaas 1997) making the SC a hotbed for systems physiology research (Wurtz & Albano 1980). Spatial relations and behavioral context of stimuli have been manipulated to better understand the neural representations of the stimuli, the decision process that govern responses, the motor commands that execute said responses as well as various effects of attention or other internal states (for review Basso & Mays 2017).  
+
+The SC is situated in the midbrain, a structure that is thought to have evolved to give sensory inputs from the forebrain influence over fixed action pattern generators to guide behaviors such as locomotion, grasping and orienting (Schneider 2014) the later of which SC has a prominent role. The earliest observed orienting behaviors elicited by SC were saccades evoked by microstimulation in experiments with cats (Adamuk 1872) and inhibited by chemical ablation (Aptner 1946). This was subsequently demonstrated in macaque (Robinson 1972, Schiller & Stryker 1972). Subsequently, primate research has been largely focused on saccades, however, many other more complex movement patterns have been observed to be guided by superior collicular activity in other animal models. Stimulation studies have demonstrated SC involvement in orienting toward novel stimuli in species as diverse as rats and hamsters (McHaffie & Stein 1982, Mort 1980, Goodale 1975), rabbits and cat (Schaefer 1970, Harris 1980, Roucoux et al 1980, Munoz 1989), bat (Valentine et al 2002), and goldfish (Herrero 1998). For many stimulation studies, with increasing stimulation intensity or duration came increasing response movement complexity in rodents (Dean 1989) and cat (Harris 1980). Studies in primates can yield other orienting behaviors such as combined eye-head gaze shifts (Cowie & Robinson 1994, Freedman et al 1996) and reaching behaviors (Werner 1993, Stuphorn et al 2000), but, the increasingly complex responses observed in other animal systems (e.g. aversive flight behaviors observed in murine models), are conspicuously absent.  
+
+A growing body of work in rodents suggests a more generalized role for the superior colliculus in sensory based decision processes to guide appropriate behavioral responses to novel environmental stimuli (Redgrave). The rodent SC has been shown to guide both orienting responses towards a novel stimulus as well as defensive aversion behaviors away from a stimulus; these responses seem opposed to each other. Furthermore, if a defensive behavior is warranted, specific regions of the SC have a more prominent role in freezing behavior whereas others elicit flight or rapid evasion behaviors. (Redgrave, Dean papers) The complex and contrasting behaviors observed in murine studies seem to challenge the predominant role of primate SC in guiding eye movements to visual targets. However, when the connectivity and architecture of SC is considered through both an ethological and phylogenetic lens, we begin to understand the specialization of the primate SC in context. Here we attempt to bridge this subject.   
+
+Understanding the inputs to SC lends insight to understanding SC function. The SC is a multi-layered structure (White & Munoz 2011 ) with unique anatomical, morphological & functional distinctions between the layers. Superficial SC layers receive contralateral visual inputs that arrive either directly from the retina via the retinotectal pathway or indirectly from V1 and other visual cortical areas (Boehnke & Munoz 2008). Visual information projects in an orderly retinotopic mapping to the surface of the contralateral SC and this pattern is very well conserved across phylogeny. Although orderly mappings have been demonstrated across many mammal, avian, fish and amphibian species, they each present with their own idiosyncrasies. The distribution of visual projections to colliculus are a prime example of mosaic evolution and vary in several species specific ways. First, the relative size and cross-sectional diameter of SC varies between species (figure from Schneider). Second, SC’s of different species have different ratios of retinotectal to retino-thalamic-cortical visual inputs. For example, rodents have a comparatively high proportion of retinotectal inputs compared to primates (Schneider 2014). Third, SC topography is inherited from the retinotopy. (elaborate & show figure comparing rodent SC with cat & primate?) The mapping of visual inputs in SC can be related to orienting behavior. For example, for animals that have evolved retinal regions of high photoreceptor density such as the primate fovea, or the visual streak of cats etc., eye movements are ecologically important behaviors, because orienting the region of the eye with the greatest photoreceptor density is optimal for extracting information. However, for animals with a relatively even spacing of the retinal photoreceptors, such as rodents, saccades are of less utility. 
+
+The intermediate and deep layers of the SC receive a comparatively diverse and numerous set of inputs that include projections from prefrontal cortex, parietal cortex, subcortical projections (Sparks & Hartwich-Young 1989, White & Munoz). Additionally, intermediate layers receive multimodal visual, auditory and somatosensory information as well direct input from the SC’s superficial layer. In effect, the superficial layer’s representation of visual space is integrated with a corresponding map of auditory, somatosensory signals and additional visual information (most likely from cortical visual areas) in the deeper layers to create a multimodal priority map to better guide behavioral responses (Drager & Hubel 1975, Meredith et al 1986, King 2004). This leads to a phenomenon of multisensory facilitation, where synchronous spatial and temporal stimuli from disparate sensory modalities can combine to enhance detection. Multisensory facilitation has been demonstrated in SC response properties of several mammals including the cat and primate (Stien et al 1996). Furthermore, lesions to SC in the cat were shown to preferentially disrupt a cats ability to perform a multisensory orientation task (Burnett 2004). After a period of recovery from unilateral SC lesions, cats were able to perform visual or auditory tasks at pre-lesion performance levels. However, performance on tasks that combine visual and auditory stimuli lacked multisensory facilitation effects. Thus, SC’s merging of sensory maps has a role in the optimization of complex orienting responses to environmental stimuli. 
+
+The intermediate and deep layers of SC receive a confluence of inputs from as many as 40 different cortical and subcortical projections (Dean et al 1989). Understanding the role for this variety, is facilitated by an appreciation for the phylogenetic wiring principles of the brain. For rudimentary chordates, orienting behaviors were limited. Sensory information was relayed directly to the hindbrain and if a noxious stimulus was detected and an escape behavior was triggered via descending uncrossed pathways. The midbrain likely evolved to allow more recently developed sensory modalities to integrate with the existing infrastructure and ultimately guide behavioral responses. Speed is of the essence. Particularly when survival in the wild hinges on reacting to novel stimuli. One could speculate that for the most primitive of visual systems, the fastest way (least synapses) for a sensory signal to affect a motor pathway requires crossed projections of visual information to midbrain and on to the descending uncrossed pathways; such a connection would facilitate a faster contraction along the contralateral side of the organism resulting in an expedited aversive reaction away from a stimulus. In time, as sensory capabilities developed further and optical image formation became a thing, an orderly mapping of sensory representation could be utilized to guide more refined orienting behaviors. As a result, the contralateral SC mapping decussates projections to form the crossed tectofugal pathways that guide orienting behaviors towards environmental stimuli (Schneider 2014); hence, this pathway takes a circuitous route to guide ipsilateral orienting movements towards a stimulus. This is supported by recent work in the optic tectum of the lamprey where GABAergic interneurons were found to mediate a switch to generate opposing orienting or evasion behaviors (Grillner et al 2019). By modulating properties of looming stimuli with a unique eye-brain-spinal cord preparation, Grillner et al demonstrated that local inhibitory neurons in superficial optic tectum are responsible for selecting for downstream signaling via distinct classes of neurons in deep layers of the tectum; uncrossed iBP neurons mediate an avoidance response whereas crossed coBP neurons mediate an orienting response(Use figure 1 from this paper)  
+
+Mammals may have evolved high-resolution senses, complex motor systems and nuanced cognitive capabilities, however, they inherited some basic neural wiring principles from the early cordates. This is apparent in SC, a well conserved and phylogenetically ancient region of the brain (Butler 2008, Feinberg & Mallatt 2016). The seemingly contradictory movement patterns elicited in murine SC mentioned previously (I.e. orienting toward and escape away from novel stimuli) find a context in parallel with the lamprey optic tectum. The work of Redgrave and colleagues have described two distinct collicular response systems that subdivide output projections across the midline into crossed and uncrossed descending pathways (Dean1989). In a series of experiments, Redgrave et al manipulated collicular microcircuitry by administering GABA blockers and observed complex aversive behaviors that resembled flight. “SC has access to a large family of defense-related ‘fight-or-flight' reactions and is capable of producing a fully integrated response when appropriately triggered.” A systematic mapping of the behaviors elicited from stimulation sites revealed distinct subregions of murine colliculus or a ‘functional mosaic’: lateral superficial and intermediate cites generally yielded innitial behavioral responses that could be described as defensive and ‘cringlike’, whereas cites that lay in deeper layers yielded contralateral orienting movements (Sahibzada 1986). Furthermore, a retrograde tracing study revealed that specific regions of murine colliculus send the predominant proportions of their projections across distinct descending pathways: ipsilateral CNF projections are located in medial colliculus and correspond with upper visual field whereas contralateral PDB projections are found in intermediate and deep layers (Redgrave et al1987). Westby et al show that the previously described regions receive distinct sensory contribution (Westby 1990) Taken together, distinct pathways of murine superior colliculus were found to receive distinct sensory inputs, mediate distinct behavioral responses, and send downstream projections across segregated crossed and uncrossed pathways.  
+
+Note: please start your introduction without including the word
+"Introduction" as a section heading (except for math articles in the
+Physical Sciences section); this heading is implied in the first
+paragraphs.
+
+Guide to using this template {.unnumbered}
+========================================
+
+SC binds multimodal sensory input with cognitive factors and bridges the signals to stereotyped response generators that can immediately trigger complex movement plans for the most appropriate response to a novel stimulus. Redgrave systematically studied SC topography and found that stimulation in distinct regions of SC yielded specific behavior response patterns and that the response also depended on the nature of the stimulus. (Figure 7A from Dean 1989) 
+
+ 
+
+Decision rules: having two pathways raises the problem of how the right one is chosen. What are the decision rules that specify which response is initiated by the SC? Sometimes a simple rule like position of the stimulus in the visual field: unexpected movement from overhead is more likely to produce flight whereas movement in the lower field is more likely to produce approach behavior. Redgrave Basal ganglia paper 1999 
+
+ 
+
+ 
+
+The second example differentiates between fight or flight. In mice this translates to freeze or flea. Something interesting about the nature of many of these inputs is that they are not evenly distributed across SC topography. Rather, they have been described as ‘patches or puffs’. This hints at a specificity that could be significant to function/behavioral outcomes. 
+
+Patches puffs clusters modules Sparks & Hartwich-Young 1989 
+
+Bittencort defensive behaviors stimulation & chemical in rat 
+
+Shang. Rally cool very recent study that outlines the specific neural pathways for flight vs freeze behavior. 
+
+Shang, Congping, et al. "Divergent midbrain circuits orchestrate escape and freezing responses to looming stimuli in mice." Nature communications 9.1 (2018): 1232. 
+
+SC orchestrates dimorphic defensive behaviors (escape or freeze) through two separate tectofugal pathways that may have interactions. 
+
+A subset of (SC) neurons may detect looming visual stimuli and participate in the generation of dimorphic defensive behaviors. However, the identity of these looming detectors and their downstream neural circuits to orchestrate innate defensive behaviors is poorly defined. 
+
+This study examines the roles of (PV+) neurons and their divergent downstream pathways in visually triggered defensive behaviors...Do SC PV+ neurons participate in coordinating the action selection between fleeing and freezing...This study indicates that the SC PV+ neurons orchestrate dimorphic defensive behaviors with two divergent tectofugal visual pathways. 
+
+Two distinct groups of PV+ neurons formed divergent visual pathways to the PBGN and LPTN, respectively....a dual-circuit winner-take-all mechanism used to orchestrate dimorphic defensive behaviors in mammals. Data presented in this study indicates the that these two apparently redundant pathways (SC-LPTN-LA & PV+ SC-PBGN) co-exist in the mouse brain and differentially contribute to distinct defensive behavioral patterns triggered by looming visual stimuli. 
+
+Behavioral context: a shelter in an arena is more likely to induce escape behaviors. Whereas the passing of an overhead shadow overhead is more likely to induce freezing behavior. 
+
+PV+ SC neurons: predominantly distributed in the retinal recipient layers (superficial). Most SC PV+ neurons are glutaminergic. 
+
+Effects of SC PV+ neuron inactivation on visually triggered defensive behaviors: are essential for both Type 1 & 2 defensive behavioral patterns. 
+
+How SC PV+ neurons mediate both type 1 & 2 defensive behavioral patterns: whole brain mapping & found 6 projection areas. In addition to the SC PV+ -> PBGN, there was also a notable connection of SC PV+ -> LPTN which previous studies had indicated involvement with fear responses. Retrograde tracing results indicate the there may be different populations of SC PV+ neurons that make connections to PBGN or LPTN. Both PBGN & LPTN receive threat-relevant visual signals from SC PV+ neurons. Optogenetic activation of the PV+ SC->PBGN pathway triggered impulsive escape followed by long-lasting freezing whereas activation of the PV+ SC->LPTN pathway induced immediate freezing; this roughly mimicked the dimorphic defensive behaviors triggered by looming visual stimuli. 
+
+Selectively silencing PBGN or LPTN: synaptic inactivation of the bilateral PBGN resulted in the disappearance of the Type1 defensive behavioral pattern & dominance of type2 pattern. Conversely, bilateral LPTN inactivation showed the type1 behavior pattern. This suggests that PBGN and LPTN mutually compete for the dominance of the behavioral outcome for Type1/2 in response to looming visual stimuli. 
+
+Author Affiliations {#author-affiliations .unnumbered}
+-------------------
+
+Even more important for the survival of small preyed-upon animals (probably more primitive in evolutionary history) there are distinct outputs for triggering movements of fleeing or freezing. The escape movements are the function of uncrossed descending pathways from the midbrain tectum, whereas orienting movements are the function of the crossed tectospinal tract. Schneider 
+
+Functional mosaic: extensive inputs to intermediate & deep SC. Functional heterogeneity: inputs are not even across depth or topography. Patchy! As are collicular outputs: the descending projections of the SC seem therefore to be organized into anatomically distinct output channels. Redgrave 
+
+Another example worth exploring: Vibrissae: an instance where different output projections have different inputs and that the nature of the inputs appears to be related to the function of the response that the corresponding output projection mediates (redgrave) 
+
+Submitting Manuscripts {#submitting-manuscripts .unnumbered}
+----------------------
+
+Rambling points to spring off of for a conclusion: 
+
+I really like this sentence & want to broaden it : While the general problem of distinguishing emergency signal from neutral event is common to all species, the details of what counts as an emergency signal vary markedly between species.(redgrave) 
+
+Redgrave: connections to basal ganglia 
+
+In closing, Midbrain tectum is not given as much credit as the cortex when it comes to complex functions. The midbrain is often thought of more as a relay station to act as a gateway for converging cortical decision processes. However, the SC is a very complex structure that receives input from numerous areas (~40) that terminate in distinct depths of the SC. Additionally many of the terminations are not evenly homogenous; this suggests connections that segregated perhaps for specific & diverse functions. Research in primate SC has largely focused on orienting responses and allocation of attention. However, research in other vertebrates has revealed a much wider involvement in behaviors that mediate how an organism behaviorally reacts to stimuli in it’s environment. Some of the most revealing of this work has been in rodents. We review this here, followed by similar findings across other animals. 
+
+Foveation hypothesis: the idea that the role of the neurons in the motor layers was to point the eyes towards the region of visual space encoded by the overlaying visual areas. Some of the earliest research in SC led to the foveation hypothesis. The bulkwork of SC research followed in this direction. 
+
+So why then does primate SC focus on saccades? Because eye movements are so important to us to foveate and bring attention to stimuli so that our big cortex can properly analyze it. Primates are relatively high on the food chain, so don’t have the same need as rodents for looming detectors etc. 
+
+Format {#format .unnumbered}
+------
+
+Many authors find it useful to organize their manuscripts with the
+following order of sections; Title, Author Affiliation, Keywords,
+Abstract, Significance Statement, Results, Discussion, Materials and
+methods, Acknowledgments, and References. Other orders and headings are
+permitted.
+
+Manuscript Length {#manuscript-length .unnumbered}
+-----------------
+
+PNAS generally uses a two-column format averaging 67 characters,
+including spaces, per line. The maximum length of a Direct Submission
+research article is six pages and a PNAS PLUS research article is ten
+pages including all text, spaces, and the number of characters displaced
+by figures, tables, and equations. When submitting tables, figures,
+and/or equations in addition to text, keep the text for your manuscript
+under 39,000 characters (including spaces) for Direct Submissions and
+72,000 characters (including spaces) for PNAS PLUS.
+
+References {#references .unnumbered}
+----------
+
+References should be cited in numerical order as they appear in text;
+this will be done automatically via bibtex, e.g. @feinberg2016ancient and
+@sparks1988neural [@westby1990output; @mcpeek2004deficits]. All references, including
+for the SI, should be included in the main manuscript file. References
+appearing in both sections should not be duplicated. SI references
+included in tables should be included with the main reference section.
+
+
+Data Archival {#data-archival .unnumbered}
+-------------
+
+PNAS must be able to archive the data essential to a published article.
+Where such archiving is not possible, deposition of data in public
+databases, such as GenBank, ArrayExpress, Protein Data Bank, Unidata,
+and others outlined in the Information for Authors, is acceptable.
+
+
+
+Language-Editing Services {#language-editing-services .unnumbered}
+-------------------------
+
+Prior to submission, authors who believe their manuscripts would benefit
+from professional editing are encouraged to use a language-editing
+service (see list at www.pnas.org/site/authors/language-editing.xhtml).
+PNAS does not take responsibility for or endorse these services, and
+their use has no bearing on acceptance of a manuscript for publication.
+
+![Placeholder image of a frog with a long example caption to show
+justification setting.<span data-label="fig:frog"></span>](frog.png)
+
+Digital Figures {#sec:figures .unnumbered}
+---------------
+
+Only TIFF, EPS, and high-resolution PDF for Mac or PC are allowed for
+figures that will appear in the main text, and images must be final
+size. Authors may submit U3D or PRC files for 3D images; these must be
+accompanied by 2D representations in TIFF, EPS, or high-resolution PDF
+format. Color images must be in RGB (red, green, blue) mode. Include the
+font files for any text.
+
+Figures and Tables should be labelled and referenced in the standard way
+using the `\label{}` and `\ref{}` commands.
+
+Figure \[fig:frog\] shows an example of how to insert a column-wide
+figure. To insert a figure wider than one column, please use the
+`\begin{figure*}...\end{figure*}` environment. Figures wider than one
+column should be sized to 11.4 cm or 17.8 cm wide.
+
+Single column equations {#single-column-equations .unnumbered}
+-----------------------
+
+Authors may use 1- or 2-column equations in their article, according to
+their preference.
+
+To allow an equation to span both columns, options are to use the
+`\begin{figure*}...\end{figure*}` environment mentioned above for
+figures, or to use the `\begin{widetext}...\end{widetext}` environment
+as shown in equation \[eqn:example\] below.
+
+Please note that this option may run into problems with floats and
+footnotes, as mentioned in the [cuted package
+documentation](http://texdoc.net/pkg/cuted). In the case of problems
+with footnotes, it may be possible to correct the situation using
+commands `\footnotemark` and `\footnotetext`.
+
+$$\begin{aligned}
+(x+y)^3&=(x+y)(x+y)^2\\
+       &=(x+y)(x^2+2xy+y^2) \label{eqn:example} \\
+       &=x^3+3x^2y+3xy^3+x^3. 
+\end{aligned}$$
+
+
+
+<!-- pandoc writes all tables using longtable, which fails in 2-column mode
+
+  Species                    CBS     CV     G3
+  ----------------------- ------ ------ ------
+  1\. Acetaldehyde           0.0    0.0    0.0
+  2\. Vinyl alcohol          9.1    9.6   13.5
+  3\. Hydroxyethylidene     50.8   51.2   54.0
+
+  : Comparison of the fitted potential energy surfaces and ab initio
+  benchmark electronic energy calculations
+
+-->
+
+Supporting Information (SI) {#supporting-information-si .unnumbered}
+---------------------------
+
+
+The main text of the paper must stand on its own without the SI. Refer
+to SI in the manuscript at an appropriate point in the text. Number
+supporting figures and tables starting with S1, S2, etc. Authors are
+limited to no more than 10 SI files, not including movie files. Authors
+who place detailed materials and methods in SI must provide sufficient
+detail in the main text methods to enable a reader to follow the logic
+of the procedures and results and also must reference the online
+methods. If a paper is fundamentally a study of a new method or
+technique, then the methods must be described completely in the main
+text. Because PNAS edits SI and composes it into a single PDF, authors
+must provide the following file formats only.
+
+### SI Text {#si-text .unnumbered}
+
+Supply Word, RTF, or LaTeX files (LaTeX files must be accompanied by a
+PDF with the same file name for visual reference).
+
+### SI Figures {#si-figures .unnumbered}
+
+Provide a brief legend for each supporting figure after the supporting
+text. Provide figure images in TIFF, EPS, high-resolution PDF, JPEG, or
+GIF format; figures may not be embedded in manuscript text. When saving
+TIFF files, use only LZW compression; do not use JPEG compression. Do
+not save figure numbers, legends, or author names as part of the image.
+Composite figures must be pre-assembled.
+
+### 3D Figures {#d-figures .unnumbered}
+
+Supply a composable U3D or PRC file so that it may be edited and
+composed. Authors may submit a PDF file but please note it will be
+published in raw format and will not be edited or composed.
+
+### SI Tables {#si-tables .unnumbered}
+
+Supply Word, RTF, or LaTeX files (LaTeX files must be accompanied by a
+PDF with the same file name for visual reference); include only one
+table per file. Do not use tabs or spaces to separate columns in Word
+tables.
+
+### SI Datasets {#si-datasets .unnumbered}
+
+Supply Excel (.xls), RTF, or PDF files. This file type will be published
+in raw format and will not be edited or composed.
+
+### SI Movies {#si-movies .unnumbered}
+
+Supply Audio Video Interleave (avi), Quicktime (mov), Windows Media
+(wmv), animated GIF (gif), or MPEG files and submit a brief legend for
+each movie in a Word or RTF file. All movies should be submitted at the
+desired reproduction size and length. Movies should be no more than 10
+MB in size.
+
+### Still images {#still-images .unnumbered}
+
+Authors must provide a still image from each video file. Supply TIFF,
+EPS, high-resolution PDF, JPEG, or GIF files.
+
+### Appendices {#appendices .unnumbered}
+
+PNAS prefers that authors submit individual source files to ensure
+readability. If this is not possible, supply a single PDF file that
+contains all of the SI associated with the paper. This file type will be
+published in raw format and will not be edited or composed.
+
+
+<!-- Leave these lines as they are at the end of your .Rmd file to ensure placement of methods & acknowledgements sections before the references-->
+\showmatmethods
+\showacknow
+\pnasbreak
