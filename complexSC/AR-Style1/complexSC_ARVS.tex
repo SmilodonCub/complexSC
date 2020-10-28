@@ -1,0 +1,818 @@
+% template.tex, dated April 5 2013
+% This is a template file for Annual Reviews 1 column Journals
+%
+% Compilation using ar-1col.cls' - version 1.0, Aptara Inc.
+% (c) 2013 AR
+%
+% Steps to compile: latex latex latex
+%
+% For tracking purposes => this is v1.0 - Apr. 2013
+
+\documentclass{ar-1col}
+
+
+\usepackage[comma]{natbib}
+\usepackage{url}
+\setcounter{secnumdepth}{4}
+
+% Metadata Information
+\jname{Xxxx. Xxx. Xxx. Xxx.}
+\jvol{AA}
+\jyear{YYYY}
+\doi{10.1146/((please add article doi))}
+
+
+% Document starts
+\begin{document}
+
+% Page header
+\markboth{Cooper et al.}{Complex SC}
+
+% Title
+\title{The role of the superior colliculus in more complex movements}
+
+
+%Authors, affiliations address.
+\author{Bonnie M. Cooper,$^1$ Robert M McPeek,$^1$
+\affil{$^1$Department of Biological Sciences, SUNY College of Optometry, New York, USA, 10036; email: bcooper@sunyopt.edu}}
+
+%Abstract
+\begin{abstract}
+The superior colliculus (SC) has a long and storied role as testbed for the neural control of eye-movements. It was over seventy years ago that Apter demonstrated the orderly mapping of saccade vectors to corresponding locations in the visual field of the colliculus in cat. Since then, there have been numerous high-impact studies to manipulate the orderly relationship between visuotopic space and saccade vector across SC topography in an effort to better uderstand the physiological underpinnings of the sensorimotor signal transformation. However, less attention has been paid to the other motor responses associated with SC activity that range in complexity from concerted movements of muscle groups (e.g. coordinated saccades and head movements) to behaviors that involve whole body plan movement sequences such as fight or flight responses in murine models. This review attempts to survey complex movements associated with SC activity (optic-tectum in non-mammalian species) and, where possible, provide a philogenetic and ethological perspective for context. 
+\end{abstract}
+
+%Keywords, etc.
+\begin{keywords}
+superior colliculus, movement, vision, sensorimotor, phylogenetic
+\end{keywords}
+\maketitle
+
+%Table of Contents
+\tableofcontents
+
+
+% Heading 1
+\section{INTRODUCTION}
+In mammals, the superior colliculus (SC) is a small pair of structures situated on the roof of the midbrain underneath the thalamus. The midbrain is thought to have evolved to give sensory  inputs from the forebrain influence over fixed action pattern generators to guide behaviors such as locomotion, grasping and orienting; the later of which SC has a prominent role (\cite{schneider2014brain}). Indeed, the earliest observed motor responses elicited by SC were saccades which orient the eyes towards visual stimuli. Saccades were evoked by microstimulation in early experiments with cats (\cite{adamuk1870dieinnervation}) , later inhibited by chemical ablation (\cite{apter1946eye}) . Aptner's early work in cat SC was sigificant because it detailed the orderly spatial relationship of the movement of the eyes towards a particular area of the visual field. From this work followed a series of influential physiology papers that demonstrated the same topographcal relationship in macaque (\cite{robinson1972eye}, \cite{schiller1972single}). Furthermore, the distinctions between the SC’s visual receptive and motor fields (\cite{goldberg1972activity}) , thier orderly retinotopic mapping (\cite{wurtz1971superior}, \cite{robinson1972eye}), and correspondence in visual space (\cite{schiller1972single}). SC topography allows the spatial relations and behavioral context of stimuli to be manipulated with relative ease to better understand the neural representations of the stimuli, the decision process that govern responses, the motor commands that execute said responses as well as various effects of attention or other internal states (for review \cite{basso2017circuits}). A result of this orderly relationship of sensory inputs to saccade vector, in the primate, much attention has been paid to the sensorimotor transformation to guide saccades (\cite{wurtz1980visual}).  
+
+While much of SC research has focused on saccades, many other more complex orienting response patterns have been observed. A remarkable conservation of function across phylogeny (\cite{sparks1988neural}, \cite{kaas1997topographic}) has been demonstrated in SC's involvement in orienting toward novel stimuli in species as diverse as rats and hamsters (\cite{mchaffie1982eye}, \cite{mort1980role}, \cite{goodale1975effects}), rabbits and cat (\cite{schaefer1970unit), \cite{harris1980superior}, \cite{roucoux1980stimulation}, \cite{munoz1989fixation}), bat (\cite{valentine2002orienting}, as well as the optic tectum of goldfish (\cite{herrero1998tail}), zebrafish (\cite{bianco2015visuomotor}), and lower vertebrates such as the lamprey (\cite{saitoh2007tectal}). For many of the early stimulation studies, with increasing stimulation intensity or duration came increasing response movement complexity as in rodents (\cite{dean1989event}) and cat (\cite{harris1980superior}). Studies in primates can yield complex orienting behaviors such as combined eye-head gaze shifts (\cite{cowie1994subcortical}, \cite{freedman1996combined}) and reaching behaviors (\cite{werner1993neurons}, \cite{stuphorn2000neurons}). However, the correspondence of increasing behavioral complexity with stimulation intensity observed in other animal systems (e.g. aversive flight behaviors observed in murine models), are muted or seemingly absent in the primate.    
+
+Why would behavioral responses guided by SC, a well conserved structure, be so different in the primate? The intent of this review is to place the primate SC in a behavioral and phylogenetic context to understand why the primate SC is hyper-specialized for saccade guidance with a lesser role in more complex movements.
+
+
+
+%Heading 1
+\section{Basic SC Blueprint}
+Understanding the architecture of SC lends insight to understanding SC function. The SC is a multi-layered structure with unique anatomical, morphological & functional distinctions between the layers (\cite{may2006mammalian}, \cite{white2011superior}). Superficial SC layers receive contralateral visual inputs that arrive either directly from the retina via the retinotectal pathway or indirectly from V1 and other visual cortical areas (\cite{boehnke2008importance}). Visual information projects in an orderly retinotopic mapping to the surface of the contralateral SC and this pattern is a constant and conserved across vertebrate phylogeny (\cite{stein1981organization}, \cite{schneider2014brain}). Orderly mappings of the visual field have been demonstrated in the SC (and optic tectum of non-mammals) across many mammal, avian, fish and amphibian species, they each present with their own idiosyncrasies. The distribution of visual projections to colliculus are a prime example of mosaic evolution and vary in several species-specific ways. First, the relative size and cross-sectional diameter of SC varies between species. For example, the relative sizes of SC and inferior colliculus (IC) differs in highly visual mammals compared to echolocating mammals (Fig 1). Highly visual mammals such as the ibex and the tarsier have larger SC structures, whereas echolocating mammals such as the bat and dolphin, which rely more heavily on auditory sensory signals, have larger IC than SC structures. Secondly, SC’s of different species have different ratios of retinotectal to retino-thalamic-cortical visual inputs. For example, rodents have a comparatively high proportion of retinotectal inputs compared to primates (\cite{schneider2014brain}. Third, SC topography is inherited from the retinotopy and this mapping of visual inputs in SC can be related to orienting behaviors. For example, some species have evolved retinal regions of high retinal ganglion cell density such as the primate fovea, or the visual streak of cats (\cite{hughes1977topography}) this over-representation of regions of the visual field translates to a magnification of representation of visual field space across SC's visual input mappings. Figure 2 compares the topography of visual inputs to rat and cat SC. Rodents retina has a relatively evenly sampled retinal ganglion cell mosaic and, therefore, rat SC presents with a reasonably linear mapping of the visual field. On the other hand, the cat has a pronounced 'visual streak' in the central region of the visual field (\cite{hughes1975quantitative}), therefore the feline SC inherits a magnification of the central visual field. The primate retina has a similar over-representation of central visual field inherited from the parafovea (\cite{cynader1972receptive}, \cite{ottes1986visuomotor}) and with a fovial magnification factor comparable to that of V1 in the cortex (\cite{chen2019foveal}). Eye movements are ecologically important behaviors, because orienting the region of the eye with the greatest photoreceptor density is optimal for extracting information. However, for animals with a relatively even spacing of the retinal photoreceptors, such as rodents, saccades are of less utility. 
+The intermediate and deep layers of the SC recieve inputs that are comparatively more diverse than the superficial layer. Numerous sensory inputs combine with projections from prefrontal cortex, parietal cortex and subcortical projections (\cite{schneider2014brain}, \cite{white2011superior}). The sensory input to intermediate layers from higher cortical centers is a multimodal visual, auditory and somatosensory information that combines with the direct input from the SC’s superficial layer (\cite{meredith1986visual}). In effect, the superficial layer’s representation of visual space is integrated with a corresponding map of auditory, somatosensory signals and additional visual information (most likely from cortical visual areas) in the deeper layers to create a multimodal priority map to better guide behavioral responses (\cite{drager1975responses}, \cite{meredith1986visual}, \cite{king2004superior}). This multimodal sensory representation may serve to support the phenomenon of multisensory facilitation, where synchronous spatial and temporal stimuli from disparate sensory modalities can combine to enhance detection (\cite{welch1986contributions}, \cite{stein1993merging}). Multisensory facilitation has been demonstrated in SC response properties of several mammals including the cat and primate (\cite{wallace1996representation}). Furthermore, lesions to SC in the cat were shown to preferentially disrupt a cats ability to perform a multisensory orientation task (\cite{burnett2004superior}). After a period of recovery from unilateral SC lesions, cats were able to perform visual or auditory tasks at pre-lesion performance levels. However, performance on tasks that combine visual and auditory stimuli lacked multisensory facilitation effects. Thus, SC’s merging of sensory maps has a role in the optimization of complex orienting responses to environmental stimuli. 
+
+Apart from sensory information, intermediate and deep layers of the colliculus are densely interconnected with a network of cortical areas that guide orienting movements such as saccades. In the primate, this includes but is not limited to the Frontal Eye Fields (FEF) and the Supplementary Eye Fields (SEF) of the Prefrontal Cortex (PFC), the Lateral Intraparietal area (LIP) in parietal cortex, the cingulate cortex and the Substantia Nigra (SNr) in the Basal Ganglia (\cite{platt2003situating}). Like SC, FEF integrates visual sensory input and is a key cortical area for guiding saccades in primates (\cite{hanes2001interaction}, \cite{schall1999neural}, \cite{schall2002neural}); signals of FEF activity convey a covert motor preparation, or priority signal for planning saccades. The SEF is thought to integrate anticipation and behaviorally relevant goals as context for the decision process of where to direct orientation movements/ allocate attention resources (\cite{schall1991neuronal}, \cite{roesch2003impact}). LIP propogates signals that descibe the salience of potential targets; this area interconnects with SC directly and via projections to FEF (\cite{gottlieb1998representation}, \cite{goldberg2006saccades}). The cingulate cortex does not directly guide saccades, however, it is observed to monitor the expected and reward outcome of sensorimotor decisions (\cite{carter1998anterior}, \cite{ito2003performance}). SNr has a facinating role in goal-directed orienting behaviors; populations of SNr GABAergic neurons control the initiation of saccades by modulating disinhibition of SC activity and are further influenced by reward-dependant SNr dopaminergic neurons (\cite{@hikosaka2000role}, \cite{hikosaka2007basal}). Collectively these areas work as a circuit to build a behaviorally relevant representation of priority for potential locations in the visual field and to allocate attention and or orienting behaviors. Within this network, SC acts as a primary gateway for a final saccade goals (\cite{@fecteau2006salience}, \cite{bisley2019neural}).
+
+SC forms dense interconnections with cortical circuitry to guide orienting behaviors. SC is set apart and unique from it's partner nodes in this circuit because of it's proximity in the midbrain and stronger direct connectivity to the brainstem oculomotor nuclei that isue the motor commants that ultimately execute behavioral responses. Most descending motor output of the deep SC projects to the brainsten saccadic circuits located in the pons and reticular formation which control the vertical and horizontal components of saccades. In addition to oculomotor nuclei, the SC also sends projections to the spinal cord. In many mammals, these pathways lead to cervical spinal chord and are involved in head movements (\cite{@may2006mammalian}). Cats are found to have many tectal projections to cervials spinal chord whereas primates have been found to have less. This has lead to speculation that the SC might actually be encoding gaze-related information rather than saccade vectors (\cite{freedman1997eye}, \cite{sparks200412}).
+
+The intermediate and deep layers of SC receive a confluence of inputs from as many as 40 different cortical and subcortical projections (\cite{edwards1979sources}, \cite{huerta1984connectional}). Understanding the role for this variety, is facilitated by an appreciation for the phylogenetic wiring principles of the brain. For rudimentary chordates, orienting behaviors were limited. Sensory information was relayed directly to the hindbrain and if a noxious stimulus was detected and an escape behavior was triggered via descending uncrossed pathways. The midbrain likely evolved to allow more recently developed sensory modalities to integrate with the existing infrastructure and ultimately guide behavioral responses. Speed is of the essence. Particularly when survival in the wild hinges on reacting to novel stimuli. One could speculate that for the most primitive of visual systems, the fastest way (least synapses) for a sensory signal to affect a motor pathway requires crossed projections of visual information to midbrain and on to the descending uncrossed pathways; such a connection would facilitate a faster contraction along the contralateral side of the organism resulting in an expedited aversive reaction away from a stimulus. In time, as sensory capabilities developed further and optical image formation became a thing, an orderly mapping of sensory representation could be utilized to guide more refined orienting behaviors. As a result, the contralateral SC mapping decussates projections to form the crossed tectofugal pathways that guide orienting behaviors towards environmental stimuli (\cite{schneider2014brain}); hence, this pathway takes a circuitous route to guide ipsilateral orienting movements towards a stimulus. This concept is supported by recent work in the optic tectum of the lamprey where GABAergic interneurons were found to mediate a switch to generate opposing orienting or evasion behaviors (\cite{saitoh2007tectal}, \cite{suzuki2019role}).
+% Heading 2
+\section{Optic Tectum of a Living Fossil}
+The lamprey is a representative species of the superclass Cyclostomata, the most ancient group of extant vertebrates (\cite{yang2016lamprey}). Lampreys and related jawless fish have long been considered 'living fossils' and the direct ancestors to other modern vertebrates. Lamprey anatomy has remained relatively unchanged for hundreds of millions of years (\cite{gess2006lamprey}) and therefore have been used as model organisms to study vertebrate evolution, development and more (\cite{nikitina2009sea}, \cite{green2014lamprey}, \cite{mccauley2015lampreys}, \cite{yang2016lamprey}). Although lampreys hold the most basal ranking and are thought to have diverged from vertebrates phylogeny as long as 550 million years ago (\cite{kumar1998molecular}), the lamprey optic tectum remarkably shares many anatomical and physiological similarities with the superior colliculus of modern mammals making them an attractive model system to investigate the midbrain sensorimotor transformation. This section descibes the lamprey optic tectum in further detail to give context to the optic tectum and to the superior colliculus of mammals having a role in guiding complex movements as behavioral responses.
+
+As in other vertebrates, the superficial layer of the lamprey optic tectum recieves afferent visual input from the retina (\cite{kosareva1980retinal}, \cite{kennedy1977retinal}). While the lamprey pallium, a primitive protocortex, does recieve visual input with a retinotopic mapping (\cite{suryanarayana2017lamprey}, \cite{suryanarayana2020evolutionary}), the pallium is relatively underdeveled in jawless fish and so the midbrain recieves the bulkwork of retinal projections. Lamprey retinotectal projections follow two main pathways: the axial optic tract carries afferents from the central visual field to the pretectum and has been implicated in visual escape behaviors. The lateral optic tract projects a retinotopic mapping of the lateral retina to the optic tectum and has been associated with goal orienting behaviors (\cite{jones2009selective}, \cite{cornide2011retinotopy}). The axial and lateral optic tracts are found to synapse with specific subsets of retinal ganglion cells which follow different temporal development patterns as lamprey larvae mature with the lateral projections to the optic tectum establishing much later during development (\cite{cornide2011retinotopy}). Retinotopic visual signals in the superficial layer are further shaped by GABAergic lateral connections (\cite{kardamakis2015tectal}) which suppress extraneous activity across optic tectum retinotopy to reduce competition once a target has been detected. Therefor, while significant embiogenesis differences exist, the superficial optic tectum of the lamprey receives a retinotopic mapping of salience across visual space much like other vertebrates (Fig 3A).
+
+As in the case with higher vertebrates, the nature of the inputs to intermediate and deep optic tectum layers increases in complexity. For example, the octavolateral area in the hindbrain recieves electrosensory afferents from the lateral line nerve (\cite{bodznick1981electroreception}). Octavolateral input projects to the intermediate layer of the optic tectum and is combined with superficial layer's visual signals in the deep layer to build a multimodal sensory representation of the environment. The integrated multisensory input in the optic tectum has been shown to independently enhance responses to guide event-detection (\cite{kardamakis2016spatiotemporal}); this is significant because, that vetebrates as primative as the lamprey multiplex sensory information in the optic tectum to guide motor responses, it sets a precedence for multisensory representations in the mammallian superior colliculus. In addition to sensory input, the intermediate layer recieves inputs from other areas including the forebrain and tonic inhibition via the basal ganglia (\cite{robertson2006afferents}). The deep layer of the lamprey optic tecum integrates information from overlying layers unto two classes of output neurons that either descend ipsilatterally (iBP neurons) or decussate and cross to the contrallateral side (coBP neurons) of the brainstem. Stimulation of the of the optic tectum produces an orderly topographic output of various eye-body motor responses. Additionally, the lamprey is capable of horizontal eye-movements and a pattern for tectal oculomotor mapping has been described however, it is not as refined as in other vetebrate systems (\cite{saitoh2007tectal}). The work of Grillnor and collaborators describes how the neural circuit of the optic tectum integrates sensory information and acts as a switch to guide behavior via the two distinct descending pathways for either evasive escape behaviors (iBP) or orienting behaviors (coBP) given the appropriate sensory input (\cite{suzuki2019role}) (Fig 3B).
+
+Grillner and collaborators have developed a unique preparations that allows them to present visual stimuli and deliver phamacological agents while simultaneously recordings from the optic tectum, reticulospinal neurons, and/or the ventral roots (\cite{kardamakis2015tectal}). This has allowed them them to methodically probe the optic tectum microcircuitry to understand the integration of sensory information across the superficial layer while mechanisms of the intermediate and deep layers integrate multimodal sensory signals and, due to preferential selectivity to stimulus properties, act as a switch to guide appropriate behavioral responses. By modulating properties of looming stimuli with a unique eye-brain-spinal cord preparation, Grillner et al demonstrated that local inhibitory neurons in superficial optic tectum are responsible for selecting for downstream signaling via distinct classes of neurons in deep layers of the tectum. Fast moving dots or bars that simulate the approach of a predator, preferentially activated iBP neurons resulting in escape/evasion behaviors. In comparison, slow looming dots preferentially activated the coBP neurons to guide orienting behaviors. coBP neurons were activated by relatively weaker stimuli than iBP possibly owing to stronger effects of lateral inhibition for slower looming stimui. Additionally, coBP and iBP neurons select for stimuli by mapping the optic tectum surface differently. iBP neurons tile the optic tectum with a relatively even mosaic. On the other hand, coBP neurons are concentrated on the anterior tectum representing the anterior visual field, therefore the lamprey is biased towards escape movements for posterior visual field stimuli and has the most information to switch between orienting or escape behaviors for anterior stimuli. This finding is significant, because, due to the highly concerved nature of the optic tectum (superior colliculus), a similar switching mechanism might be supported in higher vertebrates.
+
+% Heading 3
+\section{Emergence of Eye-movements and the Optic Tectum}
+The optic tectum of teleost fishes marks an advancement in similarity towards the superior colliculus of mammals in part because a more sophisticated topography of eye-movements emerges (\cite{land2015eye}). In the lamprey, the motor responses elicited from optic tectum are generally coordinated eye, head and/or body movements, but, experimental use of brief, low-voltage stimulation may elicit isolated eye-movements. However, because lampreys are only capable of horizontal eye-movements, the topography is muted: contralateral eye-movement amplitudes decrease from the lateral and caudal extremes of the tectum towards the medial tectum where both contraversive and ipsiversive eye-movements were observed (\cite{saitoh2007tectal}). In comparison, the teleost fishes have more developed ocular musculature and are therefore capable of increasingly complex eye-movements (\cite{graf1978eye}, \cite{torres1992afferents}, \cite{northmore2011optic}). This advancement is reflected in the eye-movement topography of optic tectum.  
+
+The topography of the teleost optic tectum to guiding eye-movements and orienting behaviors were first demonstrated in the common goldfish (\cite{salas1997tectal}). Electrical stimulation of the goldfish optic tectum yielded a detailed topographic mapping of saccade vectors (Fig 4). Saccade direction was found to change vertically from upwards to downwards in terms of the visual field along the mediolateral axis, while saccade amplitude increased towards the anteroposterior tectum. Additionally, functional zones subdividing the tectum were described. For example, the medial tectal zone reorients gaze to an area of the visual field with a combination of eye and postural movements, the antero-lateral zones are typified by goal directed eye and body movements, whereas the posterior zone of the tectum is elicit distinct tail and fin-erection to produce backing and turning movements associated with escape-like behaviors (\cite{torres2005visual}, \cite{herrero1998tail}). Another feature reminiscent of the lamprey, many tectal sites elicited stimulus dependant behavioral responses (\cite{herrero1998tail}). Low current stimulation to the rostal tectum typically resulted in movements characterized as orienting behaviors. On the other hand, relatively higher current strengths to the intermediate and deep layers of posterior tectal sites elicited escape behaviors, and this is intuitively advantageous to the animal to treat a peripheral stimulus from behind (activating the poserior tectum) as a potential threat. These findings are significant, because the superimpose saccade vector topography over an established lamprey-like behavioral switching mechanism in teleost tectum.  
+
+A similar pattern of tectal guidance for stimulus dependent and distinct orient-towards or escape-away behavioral responses has been described in the zebrafish danio, *Danio rerio*. The zebrafish has proven advantageous for studying applications of visual neuroscience because it is a genetic model orgnaism and this allows for more refined manipulations of the tectal circuitry (\cite{bilotta2001zebrafish}, \cite{mcarthur2020zebrafish}). Zebrafish orient towards and pursue small moving stimuli whereas large, looming stimuli elcit escape behaviors (\cite{bianco2011prey}, \cite{temizer2015visual}, \cite{dunn2016neural}) and this has been used as a behavioral paradigm to study the sensorimotor transformation across the optic tectum. Barker and Baier (2015) manipulated stimulus size while combining calcium imaging, pharmacogenetic lesions and optogenetic approaches to show a distinct class of tectal neurons bias approach behaviors (\cite{barker2015sensorimotor}). GAL4 enhancer trapping methods were used to create different genetic ablations to the tectum (\cite{scott2007targeting}). Gal4s1156t lines labelled and ablated GABAergic superificial tectal interneurons which a critial for lateral inhibition and in the zebrafish may play a role in stimulus size representation (\cite{preuss2014classification}). As a result, these fish had particularly large behavioral response deficits for large stimuli and were biased against escape behaviors. However, Gal4s1156t ablated fish presented with general lack of behavioral responsiveness. In comparison, Gal4mn354 ablations targeted a specific subset of interneurons (nsPVIN) restricted to the dorsal tectum (\cite{nevin2010focusing}) whose absense resulted in orienting behavior deficits. Furthermore, optogenetic activation of GAL4mn354 labelled cells facilitated orienting and approach behaviors. Taken together, this supports a role for GAL4mn354 labelled nsPVIN neurons as a distinct pathway mediating orienting behaviors. These findings suggest a role for the superficial optic tectum in filtering visual input to lend context that biases behavior whereas deeper interneurons may serve to switch between appropriate motor responses.  
+
+In recent work, Helmbrecht *et al.* further establish distinct descending tectal pathways that serve as 'labelled-lines' to mediate appropriate behavioral responses (\cite{helmbrecht2018topography}). Genetic single cell labelling techniques were used to selectively label tectofugal neurons and trace output pathways (\cite{scott2007targeting}) to visualize a tectal projectome and at least seven pathways topographically organized across the tectum. Of the seven, the ipsilateral tectobulbar tract (iTB) consistently showed a division of behavioral function with medial iTB (iTB-M) afferents responding primarily to larger looming stimuli and lateral units (iTB-L) selective for smaller prey-like stimuli. Furthermore, the medial and lateral iTB projections were found to connect morphologically distinct classes of cells. Optogenetic, calcium imaging and behavioral tracking methods were used to find that sensory information to guide approach behaviors via the iTB-L pathway follow an orderly topography along the anterior to posterior axes suggesting that functional responses reflect the spatial location of stimuli resembling potential prey. However, this was not the case with looming visual stimuli. The signal mediating escape behaviors via the iTB-M are localized to the posterior visual field (Fig 5). These findings are significant because it demostrates that specific visual stimuli are filtered at the level of the optic tectum and directed across parallel labelled-lines to distinct targets in the brainstem to guide behaviorally relevant responses. This suggests a broad role for the teleost optic tectum in forming fly-by-wire representations from primarily visual, but integrating other sensory information as well, transformed to body-centric representation that is selectively channeled to specific targets in brainstem motor centers to effect appropriate behavioral responses (\cite{northmore2011optic}). Helmbrecht *et al.* observed uncrossed ipselateral tectofugal pathways to switch between orienting and escaping behaviors, however, different circuitry has been suggested in the superior colliculus of the rodents brain. This discussion will be taken up in the following section.
+
+% Heading 4
+\section{Complex Movements and the Murine Superior Colliculus} 
+Mammals may have evolved high-resolution senses, complex motor systems and nuanced cognitive capabilities, however, they inherited some basic neural wiring principles from the early vertebrates and this is made apparent in SC, a well conserved and phylogenetically ancient region of the brain (\cite{butler2008evolution}, \cite{schneider2014brain}). Early electrophysiology experiments in the SC of mammals yielded perplexing results to investigators. For example, while the murine SC exhibits an orderly retinotopy across the superficial layer (top panel Fig 2), early stimulation studies have produced complex behaviors driving orienting, aversion, defensive posturing, aggression and other responses (\cite{mchaffie1982eye}, \cite{weldon1983rotational}, \cite{imperato1981behavioural}, \cite{olds1963approach}, \cite{valenstein1965independence}, \cite{panksepp1971aggression}, \cite{waldbillig1975attack}) to corresponding regions of visual space. How could the same structure that presents with an orderly retinotopic mapping and underlying motor map of saccade vectors also elicit seemingly contradictory movement patterns when higher levels of stimulation current are applied? The complex and contrasting behaviors observed in murine studies challenge the predominant view from primate where SC primarilly guides eye movements to visual targets.
+
+While more recent findings in the optic tectum of the lamprey, teleost fish and other lower vertebrate species provides phylogenetic context for the varied behavioral responses, the work of Redgrave and colleagues systematically characterized the complex behaviors observed from murine colliculus and describe an ethological contect. Redgrave et al (\cite{sahibzada1986movements}) manipulated stimulation current to excite collicular activity and observed two major patterns of behaviors across distinct subregions of murine SC forming a ‘functional mosaic’: Lateral SC recording sites generally yielded contralateral behavioral responses described as orienting movements towards stationary stimuli or pursuit movements after moving targets. Medial SC sites yielded ipsilateral defensive movements such as freezing, ‘cringlike’ postures, shying locomotion, and running or jumping behaviors. (Fig 6 bottom panel) Generally, as the stimulation current increased, the pattern of behavioral responses graduated in intensity with lower currents eliciting head and eye coordinated movements such as orienting or cringing, and higher stimulation yielding more involved movement components including shying locomotion or running and jumping. This is significant because is suggests that mammallian SC has access to both motivational orienting and movement behaviors as well as fight-or-flight responses and is capable of guiding integrated responses when presented with appropriate stimuli. [@dean1989event] Figure 6 plots observed patterns of behaviors with increased intensity for six recording sites (top panel). A variety of fully integrated responses represented in SC is advantageous, because "It can be argued on general grounds that it is sensible for a device (SC) concerned with orienting to be concerned also with defensive responding. The reason is that only some novel stimuli are neutral 'events' for which orienting is a suitable response. Other novel stimuli may signal an impending emergency, for example the appearance of a predator, or of an object on a collision course." (\cite{dean1989event})
+
+The lateral SC sites with orienting responses that resemble pursuit behaviors and the medial SC aversion responsive areas divided roughly across SC midline and were found to send output projections along crossed and uncrossed descending pathways (respectively) (\cite{dean1989event}). For example, pursuit behaviors can be elicited from stimulation or inhibited by the ablation to fibers projecting to the predorsal bundle (PDB) of the crossed descending pathway (\cite{dean1988organisation}, \cite{dean1986head}). Alternatively, a variety of defensive behaviors are observed after stimulation of fibers projecting to the cuneform area (CNF) (\cite{dean1988responses}, \cite{redgrave1988projection}). Furthermore, crossed PDB fibers and uncrossed CNF projections were found to receive distinct sensory contributions (\cite{westby1990output}). Lateral SC efferents to PDB are driven largely by multisensory stimuli that includes visual input from the lower visual field, somatosensory vibrissae and auditory stimuli. Medial SC efferents to CNF, on the other hand, are responsive to visual stimuli in the upper visual field. Therefore, not unlike the zebrafish, the murine SC has topographically distinct functional pathways to orient towards stimuli in front of the animal, but be prepared to flea from visual stimuli approaching from behind. Taken together, combinations of systematic mapping, ablation and tracing studies were used to establish that parallel pathways of murine superior colliculus that guide either orienting responses toward events or appropriate behaviors to avoid threats; these pathways receive distinct sensory inputs, mediate distinct behavioral responses, and send downstream projections across segregated crossed and uncrossed pathways.
+
+Redgrave and collaborators work describes different pathways to process senesory stimuli to mediate behaviorally relevant reactions to either pursue a target or escape from a potential threat. However, the repertoire of behavioral responses guided by SC is much more varied than a binary decision. For example, looming stimuli may elicit different defensive behaviors in rodents. Typically, rodents will either freeze or flee from a looming threat (\cite{eilam2005hard}, \cite{yilmaz2013rapid}, \cite{de2016vision}) and this is depending on the stimulus features and other factors including the animals access to shelter, previous experience, etc. Recent work by Shang et al has delineated the distinct pathways of parvalbumin-positive (PV+) SC neurons that guide divergent defensive behaviors for looming stimuli (\cite{shang2015parvalbumin}, \cite{shang2018divergent}). Generally, a rat’s escape behavior can be manipulated by an overhead looming visual stimulus: escaping behaviors followed by freezing (Type I behavioral response) can be triggered when a shelter was nearby or immediate freezing behavior when shelter is not (Type II behavioral response). Two distinct classes of PV+ neurons that recieve threat-relevant signals were identified and found to send projections to the parabigeminal nucleus (PBGN) or the lateral posterior thalamic nucleus (LPTN). Retrograde tracing revealed the populations of SC PV+ PBGN and LPTN neurons to be morphologically distinct in that they clustered in different layers of superficial SC. Furthermore, optogenetic activation of the PV+ SC PBGN pathway triggered impulsive escape followed by long-lasting freezing (Type I) whereas activation of the PV+ SC LPTN pathway induced immediate freezing (Type II) (Figure 7); this roughly mimicked the dimorphic defensive behaviors triggered by looming visual stimuli. This work is significant because it demonstrates another functionally distinct SC pathway to mediate appropriate behavioral responses.
+
+Functionally distinct sensorimotor pathways in SC is an elegant way to consolidate the decision process in a structure where multimodal sensory information combines and in close proximity to the necessary brainstem motor nuclei. However, having multiple pathways raises an important question: How to chose the ‘right’ one (\cite{redgrave1999basal}). The decision rule for pursuit versus avoidance is relatively simple in the murine SC and similar to the teleost’s rule: lower visual field stimuli are likely to be approached whereas unexpected overhead movement should trigger an escape behavior. However, the decision rule to flee or free is more nuanced and involves variables from an animal’s behavioral experience and environment [@eilam2005hard]. The following section builds on this further by exploring the decision rules for saccades and more complex movements in the primate
+
+%Disclosure
+\section*{DISCLOSURE STATEMENT}
+If the authors have noting to disclose, the following statement will be used: The authors are not aware of any affiliations, memberships, funding, or financial holdings that
+might be perceived as affecting the objectivity of this review. 
+
+% Acknowledgements
+\section*{ACKNOWLEDGMENTS}
+Acknowledgements, general annotations, funding.
+
+% References
+%
+% Margin notes within bibliography
+
+
+% \bibliographystyle{ar-style2.bst}
+\begin{thebibliography}{00}
+
+\bibitem[Mcpeek \& Keller(2004)]{mcpeek2004deficits}
+Mcpeek R, Keller E (2004) 
+Deficits in saccade target selection after inactivation of superior colliculus.
+\textit{ Nature Neuroscience} 7:757-763.
+
+\bibitem[Schneider(2014)]{schneider2014brain}
+Schneider G (2014) 
+Brain structure and its origins: in development and in evolution of behavior and the mind.
+\textit{ MIT Press}
+
+\bibitem[Dean \& Redgrave(1984)]{dean1984superior}
+Dean P, Redgrave P (1984) 
+Superior colliculus and visual neglect in rat and hamster. III. Functional implications.
+\textit{ Brain Research Reviews} 8:155-163.
+
+\bibitem[Dean et~al.(1989)]{dean1989event}
+Dean P, Redgrave P, Westby G (1989) 
+Event or emergency? Two response systems in the mammalian superior colliculus.
+\textit{ Trends In Neurosciences} 12:137-147.
+
+\bibitem[Sahibzada et~al.(1986)]{sahibzada1986movements}
+Sahibzada N, Dean P, Redgrave P (1986) 
+Movements resembling orientation or avoidance elicited by electrical stimulation of the superior colliculus in rats.
+\textit{ Journal Of Neuroscience} 6:723-733.
+
+\bibitem[Basso \& May(2017)]{basso2017circuits}
+Basso M, May P (2017) 
+Circuits for action and cognition: a view from the superior colliculus.
+\textit{ Annual Review Of Vision Science} 3:197-226.
+
+\bibitem[Felsen \& Mainen(2008)]{felsen2008neural}
+Felsen G, Mainen Z (2008) 
+Neural substrates of sensory-guided locomotor decisions in the rat superior colliculus.
+\textit{ Neuron} 60:137-148.
+
+\bibitem[Wurtz \& Goldberg(1971)]{wurtz1971superior}
+Wurtz R, Goldberg M (1971) 
+Superior colliculus cell responses related to eye movements in awake monkeys.
+\textit{ Science} 171:82-84.
+
+\bibitem[Goldberg \& Wurtz(1972)]{goldberg1972activity}
+Goldberg M, Wurtz R (1972) 
+Activity of superior colliculus in behaving monkey. I. Visual receptive fields of single neurons..
+\textit{ Journal Of Neurophysiology} 35:542-559.
+
+\bibitem[Wurtz \& Goldberg(1972)]{wurtz1972activity}
+Wurtz R, Goldberg M (1972) 
+Activity of superior colliculus in behaving monkey. 3. Cells discharging before eye movements..
+\textit{ Journal Of Neurophysiology} 35:575-586.
+
+\bibitem[Schiller \& Stryker(1972)]{schiller1972single}
+Schiller P, Stryker M (1972) 
+Single-unit recording and stimulation in superior colliculus of the alert rhesus monkey..
+\textit{ Journal Of Neurophysiology} 35:915-924.
+
+\bibitem[Wurtz \& Albano(1980)]{wurtz1980visual}
+Wurtz R, Albano J (1980) 
+Visual-motor function of the primate superior colliculus.
+\textit{ Annual Review Of Neuroscience} 3:189-226.
+
+\bibitem[Boehnke \& Munoz(2008)]{boehnke2008importance}
+Boehnke S, Munoz D (2008) 
+On the importance of the transient visual response in the superior colliculus.
+\textit{ Current Opinion In Neurobiology} 18:544-551.
+
+\bibitem[White \& Munoz(2011)]{white2011superior}
+White B, Munoz D (2011) 
+The superior colliculus..
+\textit{ Oxford University Press}
+
+\bibitem[Apter(1946)]{apter1946eye}
+Apter J (1946) 
+Eye movements following strychninization of the superior colliculus of cats.
+\textit{ Journal Of Neurophysiology} 9:73-86.
+
+\bibitem[Robinson(1972)]{robinson1972eye}
+Robinson D (1972) 
+Eye movements evoked by collicular stimulation in the alert monkey.
+\textit{ Vision Research} 12:1795-1808.
+
+\bibitem[Goodale \& Murison(1975)]{goodale1975effects}
+Goodale M, Murison R (1975) 
+The effects of lesions of the superior colliculus on locomotor orientation and the orienting reflex in the rat.
+\textit{ Brain Research} 88:243-261.
+
+\bibitem[Mort et~al.(1980)]{mort1980role}
+Mort E, Cairns S, Hersch H, Finlay B (1980) 
+The role of the superior colliculus in visually guided locomotion and visual orienting in the hamster.
+\textit{ Physiological Psychology} 8:20-28.
+
+\bibitem[Mchaffie \& Stein(1982)]{mchaffie1982eye}
+Mchaffie J, Stein B (1982) 
+Eye movements evoked by electrical stimulation in the superior colliculus of rats and hamsters.
+\textit{ Brain Research} 247:243-253.
+
+\bibitem[Schaefer(1970)]{schaefer1970unit}
+Schaefer K (1970) 
+Unit analysis and electrical stimulation in the optic tectum of rabbits and cats.
+\textit{ Brain, Behavior And Evolution} 3:222-240.
+
+\bibitem[Herrero et~al.(1998)]{herrero1998tail}
+Herrero L, Rodr{\'\i}guez F, Salas C, Torres B (1998) 
+Tail and eye movements evoked by electrical microstimulation of the optic tectum in goldfish.
+\textit{ Experimental Brain Research} 120:291-305.
+
+\bibitem[King(2004)]{king2004superior}
+King A (2004) 
+The superior colliculus.
+\textit{ Current Biology} 14:R335-R338.
+
+\bibitem[Meredith \& Stein(1986)]{meredith1986visual}
+Meredith M, Stein B (1986) 
+Visual, auditory, and somatosensory convergence on cells in superior colliculus results in multisensory integration.
+\textit{ Journal Of Neurophysiology} 56:640-662.
+
+\bibitem[Stanford et~al.(2005)]{stanford2005evaluating}
+Stanford T, Quessy S, Stein B (2005) 
+Evaluating the operations underlying multisensory integration in the cat superior colliculus.
+\textit{ Journal Of Neuroscience} 25:6499-6508.
+
+\bibitem[Wallace et~al.(1996)]{wallace1996representation}
+Wallace M, Wilkinson L, Stein B (1996) 
+Representation and integration of multiple sensory inputs in primate superior colliculus.
+\textit{ Journal Of Neurophysiology} 76:1246-1266.
+
+\bibitem[Burnett et~al.(2004)]{burnett2004superior}
+Burnett L, Stein B, Chaponis D, Wallace M (2004) 
+Superior colliculus lesions preferentially disrupt multisensory orientation.
+\textit{ Neuroscience} 124:535-547.
+
+\bibitem[Harris(1980)]{harris1980superior}
+Harris L (1980) 
+The superior colliculus and movements of the head and eyes in cats.
+\textit{ The Journal Of Physiology} 300:367-391.
+
+\bibitem[Munoz \& Guitton(1989)]{munoz1989fixation}
+Munoz D, Guitton D (1989) 
+Fixation and orientation control by the tecto-reticulo-spinal system in the cat whose head is unrestrained..
+\textit{ Revue Neurologique} 145:567-579.
+
+\bibitem[Roucoux et~al.(1980)]{roucoux1980stimulation}
+Roucoux A, Guitton D, Crommelinck M (1980) 
+Stimulation of the superior colliculus in the alert cat.
+\textit{ Experimental Brain Research} 39:75-85.
+
+\bibitem[Cowie \& Robinson(1994)]{cowie1994subcortical}
+Cowie R, Robinson D (1994) 
+Subcortical contributions to head movements in macaques. I. Contrasting effects of electrical stimulation of a medial pontomedullary region and the superior colliculus.
+\textit{ Journal Of Neurophysiology} 72:2648-2664.
+
+\bibitem[Freedman et~al.(1996)]{freedman1996combined}
+Freedman E, Stanford T, Sparks D (1996) 
+Combined eye-head gaze shifts produced by electrical stimulation of the superior colliculus in rhesus monkeys.
+\textit{ Journal Of Neurophysiology} 76:927-952.
+
+\bibitem[Werner(1993)]{werner1993neurons}
+Werner W (1993) 
+Neurons in the primate superior colliculus are active before and during arm movements to visual targets.
+\textit{ European Journal Of Neuroscience} 5:335-340.
+
+\bibitem[Stuphorn et~al.(2000)]{stuphorn2000neurons}
+Stuphorn V, Bauswein E, Hoffmann K (2000) 
+Neurons in the primate superior colliculus coding for arm movements in gaze-related coordinates.
+\textit{ Journal Of Neurophysiology} 83:1283-1299.
+
+\bibitem[Drager \& Hubel(1975)]{drager1975responses}
+Drager U, Hubel D (1975) 
+Responses to visual stimulation and relationship between visual, auditory, and somatosensory inputs in mouse superior colliculus.
+\textit{ Journal Of Neurophysiology} 38:690-713.
+
+\bibitem[Meredith \& Stein(1986)]{meredith1986visual}
+Meredith M, Stein B (1986) 
+Visual, auditory, and somatosensory convergence on cells in superior colliculus results in multisensory integration.
+\textit{ Journal Of Neurophysiology} 56:640-662.
+
+\bibitem[Valentine et~al.(2002)]{valentine2002orienting}
+Valentine D, Sinha S, Moss C (2002) 
+Orienting responses and vocalizations produced by microstimulation in the superior colliculus of the echolocating bat, Eptesicus fuscus.
+\textit{ Journal Of Comparative Physiology A} 188:89-108.
+
+\bibitem[Sparks \& Hartwich-young(1989)]{sparks1989deep}
+Sparks D, Hartwich-young R (1989) 
+The deep layers of the superior colliculus.
+\textit{ Rev Oculomot Res} 3:213-255.
+
+\bibitem[Butler(2008)]{butler2008evolution}
+Butler A (2008) 
+Evolution of brains, cognition, and consciousness.
+\textit{ Brain Research Bulletin} 75:442-449.
+
+\bibitem[Kaas(1997)]{kaas1997topographic}
+Kaas J (1997) 
+Topographic maps are fundamental to sensory processing.
+\textit{ Brain Research Bulletin} 44:107-112.
+
+\bibitem[Sparks(1988)]{sparks1988neural}
+Sparks D (1988) 
+Neural cartography: Sensory and motor maps in the superior colliculus.
+\textit{ Brain, Behavior And Evolution} 31:49-56.
+
+\bibitem[Feinberg \& Mallatt(2016)]{feinberg2016ancient}
+Feinberg T, Mallatt J (2016) 
+The ancient origins of consciousness: How the brain created experience.
+\textit{ MIT Press}
+
+\bibitem[Redgrave et~al.(1987)]{redgrave1987descending}
+Redgrave P, Mitchell I, Dean P (1987) 
+Descending projections from the superior colliculus in rat: a study using orthograde transport of wheatgerm-agglutinin conjugated horseradish peroxidase.
+\textit{ Experimental Brain Research} 68:147-167.
+
+\bibitem[Bannister(1990)]{westby1990output}
+Bannister M (1990) 
+Output pathways from the rat superior colliculus mediating approach and avoidance have different sensory properties..
+\textit{ Experimental Brain Research} 81:626-638.
+
+\bibitem[Adamuk(1870)]{adamuk1870dieinnervation}
+Adamuk E (1870) 
+Uber die innervation der augenbewegungen..
+\textit{ Zentrale Medizinische Wissenschaften} 8:65.
+
+\bibitem[Grillner(2007)]{saitoh2007tectal}
+Grillner S (2007) 
+Tectal control of locomotion, steering, and eye movements in lamprey..
+\textit{ Journal Of Neurophysiology} 97:3093-3108.
+
+\bibitem[Florian(2015)]{bianco2015visuomotor}
+Florian E (2015) 
+Visuomotor transformations underlying hunting behavior in zebrafish..
+\textit{ Current Biology} 25:831-846.
+
+\bibitem[Suzuki et~al.(2019)]{suzuki2019role}
+Suzuki D, P{\'e}rez-fern{\'a}ndez J, Wibble T, Kardamakis A, Grillner S (2019) 
+The role of the optic tectum for visually evoked orienting and evasive movements.
+\textit{ Proceedings Of The National Academy Of Sciences} 116:15272-15281.
+
+\bibitem[Kardamakis et~al.(2015)]{kardamakis2015tectal}
+Kardamakis A, Saitoh K, Grillner S (2015) 
+Tectal microcircuit generating visual selection commands on gaze-controlling neurons.
+\textit{ Proceedings Of The National Academy Of Sciences} 112:E1956-E1965.
+
+\bibitem[Stein(1981)]{stein1981organization}
+Stein B (1981) 
+Organization of the rodent superior colliculus: some comparisons with other mammals.
+\textit{ Behavioural Brain Research} 3:175-188.
+
+\bibitem[Hughes(1975)]{hughes1975quantitative}
+Hughes A (1975) 
+A quantitative analysis of the cat retinal ganglion cell topography.
+\textit{ Journal Of Comparative Neurology} 163:107-128.
+
+\bibitem[Hughes(1977)]{hughes1977topography}
+Hughes A (1977) 
+The topography of vision in mammals of contrasting life style: comparative optics and retinal organisation.
+\textit{ Springer}
+
+\bibitem[Chen et~al.(2019)]{chen2019foveal}
+Chen C, Hoffmann K, Distler C, Hafed Z (2019) 
+The foveal visual representation of the primate superior colliculus.
+\textit{ Current Biology} 29:2109-2119.
+
+\bibitem[Cynader \& Berman(1972)]{cynader1972receptive}
+Cynader M, Berman N (1972) 
+Receptive-field organization of monkey superior colliculus..
+\textit{ Journal Of Neurophysiology} 35:187-201.
+
+\bibitem[Ottes et~al.(1986)]{ottes1986visuomotor}
+Ottes F, Vangisbergen J, Eggermont J (1986) 
+Visuomotor fields of the superior colliculus: a quantitative model.
+\textit{ Vision Research} 26:857-873.
+
+\bibitem[May(2006)]{may2006mammalian}
+May P (2006) 
+The mammalian superior colliculus: laminar structure and connections.
+\textit{ Progress In Brain Research} 151:321-378.
+
+\bibitem[Welch et~al.(1986)]{welch1986contributions}
+Welch R, Dutionhurt L, Warren D (1986) 
+Contributions of audition and vision to temporal rate perception.
+\textit{ Perception \& Psychophysics} 39:294-300.
+
+\bibitem[Stein \& Meredith(1993)]{stein1993merging}
+Stein B, Meredith M (1993) 
+The merging of the senses..
+\textit{ The MIT Press}
+
+\bibitem[Edwards et~al.(1979)]{edwards1979sources}
+Edwards S, Ginsburgh C, Henkel C, Stein B (1979) 
+Sources of subcortical projections to the superior colliculus in the cat.
+\textit{ Journal Of Comparative Neurology} 184:309-329.
+
+\bibitem[Huerta \& Harting(1984)]{huerta1984connectional}
+Huerta M, Harting J (1984) 
+Connectional organization of the superior colliculus.
+\textit{ Trends In Neurosciences} 7:286-289.
+
+\bibitem[Platt et~al.(200)]{platt2003situating}
+Platt M, Lau B, Glimcher P (200) 
+Situating the superior colliculus within the gaze control network.
+\textit{ The Superior Colliculus: New Approaches For Studying Sensorimotor Integration Crc Press, Boca Raton}1-34.
+
+\bibitem[Hanes \& Wurtz(2001)]{hanes2001interaction}
+Hanes D, Wurtz R (2001) 
+Interaction of the frontal eye field and superior colliculus for saccade generation.
+\textit{ Journal Of Neurophysiology} 85:804-815.
+
+\bibitem[Schall \& Thompson(1999)]{schall1999neural}
+Schall J, Thompson K (1999) 
+Neural selection and control of visually guided eye movements.
+\textit{ Annual Review Of Neuroscience} 22:241-259.
+
+\bibitem[Schall(2002)]{schall2002neural}
+Schall J (2002) 
+The neural selection and control of saccades by the frontal eye field.
+\textit{ Philosophical Transactions Of The Royal Society Of London Series B: Biological Sciences} 357:1073-1082.
+
+\bibitem[Bisley \& Mirpour(2019)]{bisley2019neural}
+Bisley J, Mirpour K (2019) 
+The neural instantiation of a priority map.
+\textit{ Current Opinion In Psychology} 29:108-112.
+
+\bibitem[Fecteau \& Munoz(2006)]{fecteau2006salience}
+Fecteau J, Munoz D (2006) 
+Salience, relevance, and firing: a priority map for target selection.
+\textit{ Trends In Cognitive Sciences} 10:382-390.
+
+\bibitem[Schall(1991)]{schall1991neuronal}
+Schall J (1991) 
+Neuronal activity related to visually guided saccades in the frontal eye fields of rhesus monkeys: comparison with supplementary eye fields.
+\textit{ Journal Of Neurophysiology} 66:559-579.
+
+\bibitem[Roesch \& Olson(2003)]{roesch2003impact}
+Roesch M, Olson C (2003) 
+Impact of expected reward on neuronal activity in prefrontal cortex, frontal and supplementary eye fields and premotor cortex.
+\textit{ Journal Of Neurophysiology} 90:1766-1789.
+
+\bibitem[Gottlieb et~al.(1998)]{gottlieb1998representation}
+Gottlieb J, Kusunoki M, Goldberg M (1998) 
+The representation of visual salience in monkey parietal cortex.
+\textit{ Nature} 391:481-484.
+
+\bibitem[Goldberg et~al.(2006)]{goldberg2006saccades}
+Goldberg M, Bisley J, Powell K, Gottlieb J (2006) 
+Saccades, salience and attention: the role of the lateral intraparietal area in visual behavior.
+\textit{ Progress In Brain Research} 155:157-175.
+
+\bibitem[Ito et~al.(2003)]{ito2003performance}
+Ito S, Stuphorn V, Brown J, Schall J (2003) 
+Performance monitoring by the anterior cingulate cortex during saccade countermanding.
+\textit{ Science} 302:120-122.
+
+\bibitem[Carter et~al.(1998)]{carter1998anterior}
+Carter C, Braver T, Barch D, Botvinick M, Noll D, Cohen J (1998) 
+Anterior cingulate cortex, error detection, and the online monitoring of performance.
+\textit{ Science} 280:747-749.
+
+\bibitem[Hikosaka et~al.(2000)]{hikosaka2000role}
+Hikosaka O, Takikawa Y, Kawagoe R (2000) 
+Role of the basal ganglia in the control of purposive saccadic eye movements.
+\textit{ Physiological Reviews} 80:953-978.
+
+\bibitem[Hikosaka(2007)]{hikosaka2007basal}
+Hikosaka O (2007) 
+Basal ganglia mechanisms of reward-oriented eye movement.
+\textit{ Annals Of The New York Academy Of Sciences} 1104:229-249.
+
+\bibitem[Sparks(2004)]{sparks200412}
+Sparks D (2004) 
+12 Commands for Coordinated Eye and Head Movements in the Primate Superior Colliculus.
+\textit{}
+
+\bibitem[Freedman \& Sparks(1997)]{freedman1997eye}
+Freedman E, Sparks D (1997) 
+Eye-head coordination during head-unrestrained gaze shifts in rhesus monkeys.
+\textit{ Journal Of Neurophysiology} 77:2328-2348.
+
+\bibitem[Yang et~al.(2016)]{yang2016lamprey}
+Yang X, Si-wei Z, Qing-wei L (2016) 
+Lamprey: a model for vertebrate evolutionary research.
+\textit{ Zoological Research} 37:263.
+
+\bibitem[Gess et~al.(2006)]{gess2006lamprey}
+Gess R, Coates M, Rubidge B (2006) 
+A lamprey from the Devonian period of South Africa.
+\textit{ Nature} 443:981-984.
+
+\bibitem[Kumar \& Hedges(1998)]{kumar1998molecular}
+Kumar S, Hedges S (1998) 
+A molecular timescale for vertebrate evolution.
+\textit{ Nature} 392:917-920.
+
+\bibitem[Nikitina et~al.(2009)]{nikitina2009sea}
+Nikitina N, Bronner-fraser M, Sauka-spengler T (2009) 
+The sea lamprey Petromyzon marinus: a model for evolutionary and developmental biology.
+\textit{ Cold Spring Harbor Protocols} 2009:pdb-emo113.
+
+\bibitem[Mccauley et~al.(2015)]{mccauley2015lampreys}
+Mccauley D, Docker M, Whyard S, Li W (2015) 
+Lampreys as diverse model organisms in the genomics era.
+\textit{ Bioscience} 65:1046-1056.
+
+\bibitem[Green \& Bronner(2014)]{green2014lamprey}
+Green S, Bronner M (2014) 
+The lamprey: a jawless vertebrate model system for examining origin of the neural crest and other vertebrate traits.
+\textit{ Differentiation} 87:44-51.
+
+\bibitem[Suryanarayana et~al.(2020)]{suryanarayana2020evolutionary}
+Suryanarayana S, P{\'e}rez-fern{\'a}ndez J, Robertson B, Grillner S (2020) 
+The evolutionary origin of visual and somatosensory representation in the vertebrate pallium.
+\textit{ Nature Ecology \& Evolution} 4:639-651.
+
+\bibitem[Suryanarayana et~al.(2017)]{suryanarayana2017lamprey}
+Suryanarayana S, Robertson B, Wall{\'e}n P, Grillner S (2017) 
+The lamprey pallium provides a blueprint of the mammalian layered cortex.
+\textit{ Current Biology} 27:3264-3277.
+
+\bibitem[Kennedy \& Rubinson(1977)]{kennedy1977retinal}
+Kennedy M, Rubinson K (1977) 
+Retinal projections in larval, transforming and adult sea lamprey, Petromyzon marinus.
+\textit{ Journal Of Comparative Neurology} 171:465-479.
+
+\bibitem[Kosareva(1980)]{kosareva1980retinal}
+Kosareva A (1980) 
+Retinal projections in lamprey (Lampetra fluviatilis)..
+\textit{ Journal Fur Hirnforschung} 21:243-256.
+
+\bibitem[Jones et~al.(2009)]{jones2009selective}
+Jones M, Grillner S, Robertson B (2009) 
+Selective projection patterns from subtypes of retinal ganglion cells to tectum and pretectum: distribution and relation to behavior.
+\textit{ Journal Of Comparative Neurology} 517:257-275.
+
+\bibitem[Cornide-petronio et~al.(2011)]{cornide2011retinotopy}
+Cornide-petronio M, Barreiro-iglesias A, Anad{\'o}n R, Rodicio M (2011) 
+Retinotopy of visual projections to the optic tectum and pretectum in larval sea lamprey.
+\textit{ Experimental Eye Research} 92:274-281.
+
+\bibitem[Bodznick \& Northcutt(1981)]{bodznick1981electroreception}
+Bodznick D, Northcutt R (1981) 
+Electroreception in lampreys: evidence that the earliest vertebrates were electroreceptive.
+\textit{ Science} 212:465-467.
+
+\bibitem[Kardamakis et~al.(2016)]{kardamakis2016spatiotemporal}
+Kardamakis A, Ez J, Grillner S (2016) 
+Spatiotemporal interplay between multisensory excitation and recruited inhibition in the lamprey optic tectum.
+\textit{ Elife} 5:e16472.
+
+\bibitem[Robertson et~al.(2006)]{robertson2006afferents}
+Robertson B, Saitoh K, M{\'e}nard A, Grillner S (2006) 
+Afferents of the lamprey optic tectum with special reference to the GABA input: combined tracing and immunohistochemical study.
+\textit{ Journal Of Comparative Neurology} 499:106-119.
+
+\bibitem[Kardamakis et~al.(2015)]{kardamakis2015tectal}
+Kardamakis A, Saitoh K, Grillner S (2015) 
+Tectal microcircuit generating visual selection commands on gaze-controlling neurons.
+\textit{ Proceedings Of The National Academy Of Sciences} 112:E1956-E1965.
+
+\bibitem[Salas et~al.(1997)]{salas1997tectal}
+Salas C, Herrero L, Rodr{\i}guez F, Torres B (1997) 
+Tectal codification of eye movements in goldfish studied by electrical microstimulation.
+\textit{ Neuroscience} 78:271-288.
+
+\bibitem[Graf \& Meyer(1978)]{graf1978eye}
+Graf W, Meyer D (1978) 
+Eye positions in fishes suggest different modes of interaction between commands and reflexes.
+\textit{ Journal Of Comparative Physiology} 128:241-250.
+
+\bibitem[Torres et~al.(1992)]{torres1992afferents}
+Torres B, Pastor A, Cabrera B, Salas C, Delgado-garc{\'\i}a J (1992) 
+Afferents to the oculomotor nucleus in the goldfish (Carassius auratus) as revealed by retrograde labeling with horseradish peroxidase.
+\textit{ Journal Of Comparative Neurology} 324:449-461.
+
+\bibitem[Northmore(2011)]{northmore2011optic}
+Northmore D (2011) 
+Optic tectum.
+\textit{ Encyclopedia Of Fish Physiology: From Genome To Environment} 1:131-142.
+
+\bibitem[(2015)]{land2015eye}
+ M (2015) 
+Eye movements of vertebrates and their relation to eye form and function.
+\textit{ Journal Of Comparative Physiology A} 201:195-214.
+
+\bibitem[Torres et~al.(2005)]{torres2005visual}
+Torres B, Luque M, P{\'e}rez-p{\'e}rez M, Herrero L (2005) 
+Visual orienting response in goldfish: a multidisciplinary study.
+\textit{ Brain Research Bulletin} 66:376-380.
+
+\bibitem[Bilotta \& Saszik(2001)]{bilotta2001zebrafish}
+Bilotta J, Saszik S (2001) 
+The zebrafish as a model visual system.
+\textit{ International Journal Of Developmental Neuroscience} 19:621-629.
+
+\bibitem[Barker \& Baier(2015)]{barker2015sensorimotor}
+Barker A, Baier H (2015) 
+Sensorimotor decision making in the zebrafish tectum.
+\textit{ Current Biology} 25:2804-2814.
+
+\bibitem[Bianco et~al.(2011)]{bianco2011prey}
+Bianco I, Kampff A, Engert F (2011) 
+Prey capture behavior evoked by simple visual stimuli in larval zebrafish.
+\textit{ Frontiers In Systems Neuroscience} 5:101.
+
+\bibitem[Temizer et~al.(2015)]{temizer2015visual}
+Temizer I, Donovan J, Baier H, Semmelhack J (2015) 
+A visual pathway for looming-evoked escape in larval zebrafish.
+\textit{ Current Biology} 25:1823-1834.
+
+\bibitem[Scott et~al.(2007)]{scott2007targeting}
+Scott E, Mason L, Arrenberg A, Ziv L, Gosse N, Xiao T, Chi N, Asakawa K, Kawakami K, Baier H (2007) 
+Targeting neural circuitry in zebrafish using GAL4 enhancer trapping.
+\textit{ Nature Methods} 4:323-326.
+
+\bibitem[Preuss et~al.(2014)]{preuss2014classification}
+Preuss S, Trivedi C, Vomberg-maurer C, Ryu S, Bollmann J (2014) 
+Classification of object size in retinotectal microcircuits.
+\textit{ Current Biology} 24:2376-2385.
+
+\bibitem[Nevin et~al.(2010)]{nevin2010focusing}
+Nevin L, Robles E, Baier H, Scott E (2010) 
+Focusing on optic tectum circuitry through the lens of genetics.
+\textit{ Bmc Biology} 8:126.
+
+\bibitem[Dunn et~al.(2016)]{dunn2016neural}
+Dunn T, Gebhardt C, Naumann E, Riegler C, Ahrens M, Engert F, Delbene F (2016) 
+Neural circuits underlying visually evoked escapes in larval zebrafish.
+\textit{ Neuron} 89:613-628.
+
+\bibitem[Mcarthur et~al.(2020)]{mcarthur2020zebrafish}
+Mcarthur K, Chow D, Fetcho J (2020) 
+Zebrafish as a Model for Revealing the Neuronal Basis of Behavior.
+\textit{ Elsevier}
+
+\bibitem[Helmbrecht et~al.(2018)]{helmbrecht2018topography}
+Helmbrecht T, Dalmaschio M, Donovan J, Koutsouli S, Baier H (2018) 
+Topography of a visuomotor transformation.
+\textit{ Neuron} 100:1429-1445.
+
+\bibitem[Weldon et~al.(1983)]{weldon1983rotational}
+Weldon D, Calabrese L, Nicklaus K (1983) 
+Rotational behavior following cholinergic stimulation of the superior colliculus in rats.
+\textit{ Pharmacology Biochemistry And Behavior} 19:813-820.
+
+\bibitem[Imperato \& Dichiara(1981)]{imperato1981behavioural}
+Imperato A, Dichiara G (1981) 
+Behavioural effects of GABA-agonists and antagonists infused in the mesencephalic reticular formation-deep layers of superior colliculus.
+\textit{ Brain Research} 224:185-194.
+
+\bibitem[Olds \& Olds(1963)]{olds1963approach}
+Olds M, Olds J (1963) 
+Approach-avoidance analysis of rat diencephalon.
+\textit{ Wiley Subscription Services, Inc., A Wiley Compan.}
+
+\bibitem[Valenstein(1965)]{valenstein1965independence}
+Valenstein E (1965) 
+Independence of approach and escape reactions to electrical stimulation of the brain..
+\textit{ Journal Of Comparative And Physiological Psychology} 60:20.
+
+\bibitem[Panksepp(1971)]{panksepp1971aggression}
+Panksepp J (1971) 
+Aggression elicited by electrical stimulation of the hypothalamus in albino rats.
+\textit{ Physiology \& Behavior} 6:321-329.
+
+\bibitem[Waldbillig(1975)]{waldbillig1975attack}
+Waldbillig R (1975) 
+Attack, eating, drinking, and gnawing elicited by electrical stimulation of rat mesencephalon and pons..
+\textit{ Journal Of Comparative And Physiological Psychology} 89:200.
+
+\bibitem[Freedman et~al.(1996)]{freedman1996combined}
+Freedman E, Stanford T, Sparks D (1996) 
+Combined eye-head gaze shifts produced by electrical stimulation of the superior colliculus in rhesus monkeys.
+\textit{ Journal Of Neurophysiology} 76:927-952.
+
+\bibitem[Klier et~al.(2001)]{klier2001superior}
+Klier E, Wang H, Crawford J (2001) 
+The superior colliculus encodes gaze commands in retinal coordinates.
+\textit{ Nature Neuroscience} 4:627-632.
+
+\bibitem[Desouza et~al.(2011)]{desouza2011intrinsic}
+Desouza J, Keith G, Yan X, Blohm G, Wang H, Crawford J (2011) 
+Intrinsic reference frames of superior colliculus visuomotor receptive fields during head-unrestrained gaze shifts.
+\textit{ Journal Of Neuroscience} 31:18313-18326.
+
+\bibitem[Corneil et~al.(2002)]{corneil2002neck}
+Corneil B, Olivier E, Munoz D (2002) 
+Neck muscle responses to stimulation of monkey superior colliculus. II. Gaze shift initiation and volitional head movements.
+\textit{ Journal Of Neurophysiology} 88:2000-2018.
+
+\bibitem[Desouza et~al.(2011)]{desouza2011intrinsic}
+Desouza J, Keith G, Yan X, Blohm G, Wang H, Crawford J (2011) 
+Intrinsic reference frames of superior colliculus visuomotor receptive fields during head-unrestrained gaze shifts.
+\textit{ Journal Of Neuroscience} 31:18313-18326.
+
+\bibitem[Song et~al.(2011)]{song2011deficits}
+Song J, Rafal R, Mcpeek R (2011) 
+Deficits in reach target selection during inactivation of the midbrain superior colliculus.
+\textit{ Proceedings Of The National Academy Of Sciences} 108:E1433-E1440.
+
+\bibitem[Song \& Mcpeek(2015)]{song2015neural}
+Song J, Mcpeek R (2015) 
+Neural correlates of target selection for reaching movements in superior colliculus.
+\textit{ Journal Of Neurophysiology} 113:1414-1422.
+
+\bibitem[Stuphorn et~al.(2000)]{stuphorn2000neurons}
+Stuphorn V, Bauswein E, Hoffmann K (2000) 
+Neurons in the primate superior colliculus coding for arm movements in gaze-related coordinates.
+\textit{ Journal Of Neurophysiology} 83:1283-1299.
+
+\bibitem[Linzenbold \& Himmelbach(2012)]{linzenbold2012signals}
+Linzenbold W, Himmelbach M (2012) 
+Signals from the deep: reach-related activity in the human superior colliculus.
+\textit{ Journal Of Neuroscience} 32:13881-13888.
+
+\bibitem[L{\"u}nenburger et~al.(2001)]{lunenburger2001possible}
+L{\"u}nenburger L, Kleiser R, Stuphorn V, Miller L, Hoffmann K (2001) 
+A possible role of the superior colliculus in eye-hand coordination.
+\textit{ Elsevier}
+
+\bibitem[Walton et~al.(2007)]{walton2007role}
+Walton M, Bechara B, Hi N (2007) 
+Role of the primate superior colliculus in the control of head movements.
+\textit{ Journal Of Neurophysiology} 98:2022-2037.
+
+\bibitem[Dean et~al.(1988)]{dean1988responses}
+Dean P, Mitchell I, Redgrave P (1988) 
+Responses resembling defensive behaviour produced by microinjection of glutamate into superior colliculus of rats.
+\textit{ Neuroscience} 24:501-510.
+
+\bibitem[Dean et~al.(1988)]{dean1988organisation}
+Dean P, Redgrave P, Mitchell I (1988) 
+Organisation of efferent projections from superior colliculus to brainstem in rat: evidence for functional output channels.
+\textit{ Elsevier}
+
+\bibitem[Redgrave et~al.(1988)]{redgrave1988projection}
+Redgrave P, Dean P, Mitchell I, Odekunle A, Clark A (1988) 
+The projection from superior colliculus to cuneiform area in the rat.
+\textit{ Experimental Brain Research} 72:611-625.
+
+\bibitem[Dean et~al.(1986)]{dean1986head}
+Dean P, Redgrave P, Sahibzada N, Tsuji K (1986) 
+Head and body movements produced by electrical stimulation of superior colliculus in rats: effects of interruption of crossed tectoreticulospinal pathway.
+\textit{ Neuroscience} 19:367-380.
+
+\bibitem[Shang et~al.(2018)]{shang2018divergent}
+Shang C, Chen Z, Liu A, Li Y, Zhang J, Qu B, Yan F, Zhang Y, Liu W, Liu Z (2018) 
+Divergent midbrain circuits orchestrate escape and freezing responses to looming stimuli in mice.
+\textit{ Nature Communications} 9:1-17.
+
+\bibitem[Desjardin et~al.(2013)]{desjardin2013defense}
+Desjardin J, Holmes A, Forcelli P, Cole C, Gale J, Wellman L, Gale K, Malkova L (2013) 
+Defense-like behaviors evoked by pharmacological disinhibition of the superior colliculus in the primate.
+\textit{ Journal Of Neuroscience} 33:150-155.
+
+\bibitem[Bittencourt et~al.(2005)]{bittencourt2005organization}
+Bittencourt A, Nakamura-palacios E, Mauad H, Tufik S, Schenberg L (2005) 
+Organization of electrically and chemically evoked defensive behaviors within the deeper collicular layers as compared to the periaqueductal gray matter of the rat.
+\textit{ Neuroscience} 133:873-892.
+
+\bibitem[Bittencourt et~al.(2004)]{bittencourt2004organization}
+Bittencourt A, Carobrez A, Zamprogno L, Tufik S, Schenberg L (2004) 
+Organization of single components of defensive behaviors within distinct columns of periaqueductal gray matter of the rat: role of N-methyl-D-aspartic acid glutamate receptors.
+\textit{ Neuroscience} 125:71-89.
+
+\bibitem[Eilam(2005)]{eilam2005hard}
+Eilam D (2005) 
+Die hard: a blend of freezing and fleeing as a dynamic defense—implications for the control of defensive behavior.
+\textit{ Neuroscience \& Biobehavioral Reviews} 29:1181-1191.
+
+\bibitem[Yilmaz \& Meister(2013)]{yilmaz2013rapid}
+Yilmaz M, Meister M (2013) 
+Rapid innate defensive responses of mice to looming visual stimuli.
+\textit{ Current Biology} 23:2011-2015.
+
+\bibitem[Defranceschi et~al.(2016)]{de2016vision}
+Defranceschi G, Vivattanasarn T, Saleem A, Solomon S (2016) 
+Vision guides selection of freeze or flight defense strategies in mice.
+\textit{ Current Biology} 26:2150-2154.
+
+\bibitem[Shang et~al.(2015)]{shang2015parvalbumin}
+Shang C, Liu Z, Chen Z, Shi Y, Wang Q, Liu S, Li D, Cao P (2015) 
+A parvalbumin-positive excitatory visual pathway to trigger fear responses in mice.
+\textit{ Science} 348:1472-1477.
+
+\bibitem[Redgrave et~al.(1999)]{redgrave1999basal}
+Redgrave P, Prescott T, Gurney K (1999) 
+The basal ganglia: a vertebrate solution to the selection problem?.
+\textit{ Neuroscience} 89:1009-1023.
+
+\bibitem[Shang et~al.(2018)]{shang2018divergent}
+Shang C, Chen Z, Liu A, Li Y, Zhang J, Qu B, Yan F, Zhang Y, Liu W, Liu Z (2018) 
+Divergent midbrain circuits orchestrate escape and freezing responses to looming stimuli in mice.
+\textit{ Nature Communications} 9:1-17.
+
+
+  
+\end{thebibliography}
+
+
+\end{document}
